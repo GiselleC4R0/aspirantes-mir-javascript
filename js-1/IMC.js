@@ -1,6 +1,6 @@
 // escribe la función bmi acá
 function bmi(peso, altura) {
-  let form = peso / (altura * altura);
+  let form = peso / Math.pow(altura, 2);
   return form;
 }
 // código de prueba
